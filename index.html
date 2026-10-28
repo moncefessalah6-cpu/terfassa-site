@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — Terfassa</title>
+<meta name="description" content="Politique de confidentialité de Terfassa, application de navigation GPS hors ligne. Aucune donnée ne quitte le téléphone.">
+<style>
+  :root {
+    --brand: #B4560A;
+    --brand-dark: #8A4208;
+    --bg: #FFF8EC;
+    --surface: #FFFFFF;
+    --text: #2B1C0E;
+    --muted: #6B5542;
+    --border: #E8D9C4;
+    --accent-bg: #FDF0DC;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --brand: #E8913F;
+      --brand-dark: #D97A1F;
+      --bg: #17110B;
+      --surface: #211810;
+      --text: #F2E7D8;
+      --muted: #B5A18A;
+      --border: #3B2C1D;
+      --accent-bg: #2B1F13;
+    }
+  }
+  :root[data-theme="dark"] {
+    --brand: #E8913F;
+    --brand-dark: #D97A1F;
+    --bg: #17110B;
+    --surface: #211810;
+    --text: #F2E7D8;
+    --muted: #B5A18A;
+    --border: #3B2C1D;
+    --accent-bg: #2B1F13;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  header {
+    background: linear-gradient(135deg, var(--brand-dark), var(--brand));
+    color: #FFF3E0;
+    padding: 56px 16px 48px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  header .wrap { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
+  header svg { width: 68px; height: 68px; flex: none; }
+  header h1 { margin: 0; font-size: 2rem; line-height: 1.2; letter-spacing: -0.01em; }
+  header p { margin: 6px 0 0; opacity: 0.88; font-size: 1rem; }
+
+  main { padding: 0 16px 72px; }
+  .card {
+    max-width: 760px; margin: -28px auto 0;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 36px 32px;
+  }
+  @media (max-width: 560px) { .card { padding: 26px 20px; } }
+
+  .meta { color: var(--muted); font-size: 0.92rem; margin: 0 0 28px; }
+  .meta strong { color: var(--text); font-weight: 600; }
+
+  .summary {
+    background: var(--accent-bg);
+    border-left: 4px solid var(--brand);
+    border-radius: 0 10px 10px 0;
+    padding: 18px 22px;
+    margin: 0 0 36px;
+  }
+  .summary p { margin: 0; }
+
+  h2 {
+    font-size: 1.28rem; line-height: 1.35; margin: 40px 0 12px;
+    padding-top: 26px; border-top: 1px solid var(--border);
+    letter-spacing: -0.005em;
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  h3 { font-size: 1.04rem; margin: 26px 0 8px; color: var(--brand); }
+  p, li { margin: 0 0 14px; }
+  ul { padding-left: 22px; }
+  code {
+    background: var(--accent-bg); border: 1px solid var(--border);
+    border-radius: 5px; padding: 1px 6px;
+    font: 0.86em/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    overflow-wrap: anywhere;
+  }
+  a { color: var(--brand); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+  .table-scroll { overflow-x: auto; margin: 0 0 18px; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+  th, td { text-align: left; padding: 11px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { background: var(--accent-bg); font-weight: 600; white-space: nowrap; }
+
+  footer {
+    max-width: 760px; margin: 28px auto 0; padding: 0 16px;
+    color: var(--muted); font-size: 0.88rem; text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <svg viewBox="0 0 108 108" role="img" aria-label="Logo Terfassa">
+      <rect width="108" height="108" rx="24" fill="#FFF3E0" opacity="0.14"/>
+      <path d="M54,26 L70,74 L54,65 L38,74 Z" fill="#FFF3E0"/>
+      <circle cx="54" cy="77" r="3" fill="#FFF3E0" opacity="0.8"/>
+      <circle cx="54" cy="84" r="2.2" fill="#FFF3E0" opacity="0.5"/>
+    </svg>
+    <div>
+      <h1>Politique de confidentialité</h1>
+      <p>Terfassa — ترفاسة · Navigation GPS hors ligne</p>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="card">
+
+  <p class="meta">
+    <strong>Dernière mise à jour :</strong> 11 octobre 2026<br>
+    <strong>Éditeur :</strong> Moncef Essalah, Tunisie<br>
+    <strong>Contact :</strong> <a href="mailto:moncefessalah6@gmail.com">moncefessalah6@gmail.com</a>
+  </p>
+
+  <div class="summary">
+    <p>Terfassa est une application de navigation GPS hors ligne.
+    <strong>Aucune donnée ne quitte votre téléphone.</strong> L'application ne
+    possède aucun serveur, n'envoie aucune requête réseau, et ne contient ni
+    publicité ni outil de mesure d'audience.</p>
+  </div>
+
+  <h2>1. Données auxquelles l'application accède</h2>
+
+  <h3>Localisation (précise et approximative)</h3>
+  <p>L'application lit votre position GPS pour remplir sa fonction : afficher où
+  vous êtes, mesurer les distances, vous guider vers un point enregistré,
+  enregistrer le chemin parcouru et calculer la direction de la Qibla.</p>
+  <p>Cette lecture se poursuit <strong>écran éteint</strong> lorsque vous avez
+  démarré l'enregistrement d'une sortie ou une navigation. Un service de premier
+  plan et sa notification permanente vous le signalent alors sans ambiguïté, et
+  vous pouvez l'interrompre à tout moment depuis l'application ou la
+  notification.</p>
+  <p>L'application <strong>ne demande pas</strong> la permission de localisation
+  en arrière-plan (<code>ACCESS_BACKGROUND_LOCATION</code>) : le service de
+  premier plan suffit à son fonctionnement.</p>
+
+  <h3>Capteurs d'orientation</h3>
+  <p>Le magnétomètre et l'accéléromètre servent à orienter la flèche et la
+  boussole de la Qibla à l'écran. Ces mesures ne sont jamais enregistrées.</p>
+
+  <h2>2. Ce qui est conservé, et où</h2>
+  <p>Les données suivantes sont enregistrées <strong>exclusivement dans la
+  mémoire privée de votre téléphone</strong>, dans un espace auquel aucune autre
+  application n'a accès :</p>
+  <div class="table-scroll">
+  <table>
+    <thead><tr><th>Donnée</th><th>Usage</th></tr></thead>
+    <tbody>
+      <tr><td>Vos positions enregistrées (nom, coordonnées)</td><td>Les retrouver et s'y faire guider</td></tr>
+      <tr><td>Vos sorties (chemin parcouru, distance, durée)</td><td>Historique et retour par vos traces</td></tr>
+      <tr><td>Votre point de départ</td><td>Le retour rapide</td></tr>
+      <tr><td>Vos réglages (langue, thème, seuils)</td><td>Conserver vos préférences</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>Ces données <strong>ne sont jamais transmises</strong>, ni à l'éditeur, ni à
+  un tiers, ni à un service d'hébergement. Il n'existe aucun compte utilisateur
+  et aucune synchronisation.</p>
+
+  <h2>3. Partage de données</h2>
+  <p><strong>Aucun partage automatique.</strong> L'application ne transmet rien
+  d'elle-même.</p>
+  <p>Deux fonctions mettent un partage <strong>à votre initiative</strong>, et
+  uniquement lorsque vous les déclenchez explicitement :</p>
+  <ul>
+    <li><strong>Export GPX</strong> : vous choisissez l'application destinataire
+    (messagerie, stockage, autre application de navigation). Le fichier contient
+    les coordonnées que vous avez décidé d'exporter.</li>
+    <li><strong>Partage de coordonnées en texte</strong> : vous envoyez vous-même
+    un message contenant des coordonnées, par le moyen que vous choisissez.</li>
+  </ul>
+  <p>Dans les deux cas, c'est vous qui sélectionnez le destinataire et le
+  contenu. L'application ne fait que préparer le texte ou le fichier.</p>
+
+  <h2>4. Suppression de vos données</h2>
+  <ul>
+    <li><strong>Une position ou une sortie :</strong> supprimez-la depuis l'écran
+    correspondant.</li>
+    <li><strong>La totalité :</strong> désinstallez l'application, ou videz ses
+    données depuis les réglages Android (Applications → Terfassa → Stockage →
+    Effacer les données). Tout disparaît avec elle, puisque rien n'est stocké
+    ailleurs.</li>
+  </ul>
+  <p>Aucune demande n'est à adresser à l'éditeur : il ne détient aucune de vos
+  données et n'aurait donc rien à supprimer.</p>
+
+  <h2>5. Permissions demandées et pourquoi</h2>
+  <div class="table-scroll">
+  <table>
+    <thead><tr><th>Permission</th><th>Raison</th></tr></thead>
+    <tbody>
+      <tr><td><code>ACCESS_FINE_LOCATION</code></td><td>Guider avec une précision suffisante. Sans elle, une erreur de plusieurs kilomètres rendrait la direction dangereuse.</td></tr>
+      <tr><td><code>ACCESS_COARSE_LOCATION</code></td><td>Repli si vous n'accordez que la position approximative. L'application affiche alors votre position mais refuse de guider, et le dit.</td></tr>
+      <tr><td><code>FOREGROUND_SERVICE</code><br><code>FOREGROUND_SERVICE_LOCATION</code></td><td>Poursuivre l'enregistrement d'une sortie écran éteint.</td></tr>
+      <tr><td><code>POST_NOTIFICATIONS</code></td><td>Afficher la notification du suivi, obligatoire à partir d'Android 13.</td></tr>
+      <tr><td><code>VIBRATE</code></td><td>Signaler une arrivée ou un éloignement sans que vous ayez à regarder l'écran.</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>L'application ne demande ni accès au réseau, ni aux contacts, ni au stockage
+  partagé, ni à l'appareil photo, ni au microphone.</p>
+
+  <h2>6. Services tiers</h2>
+  <p>L'application utilise, <strong>selon ce qui est disponible sur votre
+  appareil</strong>, l'un de ces trois fournisseurs de position :</p>
+  <ul>
+    <li><strong>Google Play Services Location</strong>, si présent ;</li>
+    <li><strong>HMS Location Kit</strong> (Huawei), si présent et configuré ;</li>
+    <li><strong>le récepteur GPS du système Android</strong>, qui fonctionne sans
+    aucun service tiers.</li>
+  </ul>
+  <p>Ces composants appartiennent à leurs éditeurs respectifs et sont utilisés
+  uniquement pour obtenir votre position sur l'appareil. Terfassa ne leur
+  transmet aucune donnée à des fins d'analyse ou de publicité, et ne leur envoie
+  vos coordonnées ni ne les stocke à distance.</p>
+  <p>Aucune bibliothèque de publicité, de mesure d'audience ou de rapport
+  d'incidents en ligne n'est intégrée. Les éventuelles traces d'erreur restent
+  dans la mémoire privée de l'appareil.</p>
+
+  <h3>Données cartographiques</h3>
+  <p>Les noms et coordonnées du catalogue de lieux proviennent de
+  <a href="https://www.geonames.org/" rel="noopener">GeoNames</a>, utilisés sous
+  licence <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">Creative
+  Commons Attribution 4.0</a>. Ces données sont <strong>incluses dans
+  l'application</strong> et consultées hors ligne : aucune requête n'est adressée
+  à GeoNames depuis votre téléphone.</p>
+
+  <h2>7. Enfants</h2>
+  <p>L'application ne s'adresse pas spécifiquement aux enfants et ne collecte
+  sciemment aucune donnée les concernant. Comme rien n'est transmis ni conservé
+  hors de l'appareil, elle ne constitue pas davantage un risque pour eux que pour
+  un autre utilisateur.</p>
+
+  <h2>8. Modifications</h2>
+  <p>Toute modification de cette politique sera publiée à cette même adresse, avec
+  une date de mise à jour actualisée. Si une version future de l'application
+  transmettait des données — ce qui n'est pas prévu — la politique serait modifiée
+  <strong>avant</strong> cette version, et le changement signalé dans
+  l'application.</p>
+
+  <h2>9. Contact</h2>
+  <p>Pour toute question concernant cette politique ou le traitement de vos
+  données :</p>
+  <p><strong>Moncef Essalah</strong><br>
+  <a href="mailto:moncefessalah6@gmail.com">moncefessalah6@gmail.com</a><br>
+  Tunisie</p>
+
+</div>
+</main>
+
+<footer>
+  <p>Terfassa · <code>com.tataouine.terfassa</code></p>
+</footer>
+
+</body>
+</html>
